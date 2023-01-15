@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000000;
+}
+
+a.active p {
+  color: #bb5a3a;
+}
+
+@font-face {
+  font-family: "InriaSerif-Bold";
+  src: local("InriaSerif-Bold"),
+    url(./Assets/fonts/InriaSerif-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "InriaSerif-Regular";
+  src: local("InriaSerif-Regular"),
+    url(./Assets/fonts/InriaSerif-Regular.ttf) format("truetype");
+}
